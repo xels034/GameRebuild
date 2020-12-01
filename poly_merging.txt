@@ -1,0 +1,23 @@
+//TODO clever rect overlap:
+				//dist a = min(xcoords) -> max(xcoords)
+				//if (dist < 1.width+2.width) kinda clever ^^
+				
+				//TODO
+				//cross product -> get first
+				//1) first.p1 -> crosspoint
+				//2) crosspoint -> second.p2
+				// 1.prev = first.prev
+				// 1.next = 2
+				// 2.prev = 1
+				// 2.prev = second.next
+				//add 1) and 2)
+				//set lastsetline
+
+//while not return
+				//for:
+				//1st line of ll back to itself, save in tmplist
+				//if (no next) -> descart all of tmplist, empty tmplist
+				//else if closed
+					//if CCW
+						//build DPAreaPolygon, set children p1,p2, center=median of p1.c and p2.c, return
+					//else -> discart all of tmplist, empty tmplist

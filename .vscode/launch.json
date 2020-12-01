@@ -1,0 +1,17 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Game_Rebuild",
+      "request": "launch",
+      "mainClass": "gui.AppWindow",
+      "projectName": "Game_Rebuild",
+      "cwd": "${workspaceFolder}",
+      "vmArgs": "-Djava.library.path=lib -client -Xmx4G -XX:+UseTLAB -XX:+UseConcMarkSweepGC -XX:+UseCompressedOops -XX:+AlwaysPreTouch -XX:MaxInlineSize=64 -XX:+OptimizeStringConcat -XX:ErrorFile=log/jvm_crash_log_%p.log -Djava.awt.headless=true"
+    }
+  ]
+}
