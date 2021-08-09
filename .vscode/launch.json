@@ -11,7 +11,7 @@
       "mainClass": "gui.AppWindow",
       "projectName": "Game_Rebuild",
       "cwd": "${workspaceFolder}",
-      "vmArgs": "-Djava.library.path=lib -client -Xmx4G -XX:+UseTLAB -XX:+UseConcMarkSweepGC -XX:+UseCompressedOops -XX:+AlwaysPreTouch -XX:MaxInlineSize=64 -XX:+OptimizeStringConcat -XX:ErrorFile=log/jvm_crash_log_%p.log -Djava.awt.headless=true"
+      "vmArgs": "-Djava.library.path=lib -client -Xmx4G -XX:+UseTLAB -XX:+UseCompressedOops -XX:+AlwaysPreTouch -XX:MaxInlineSize=64 -XX:+OptimizeStringConcat -XX:ErrorFile=log/jvm_crash_log_%p.log -Djava.awt.headless=true"
     }
   ]
 }
