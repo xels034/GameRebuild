@@ -6,10 +6,10 @@
   "configurations": [
     {
       "type": "java",
-      "name": "Game_Rebuild",
+      "name": "GameRebuild",
       "request": "launch",
       "mainClass": "gui.AppWindow",
-      "projectName": "Game_Rebuild",
+      "projectName": "GameRebuild",
       "cwd": "${workspaceFolder}",
       "vmArgs": "-Djava.library.path=lib -client -Xmx4G -XX:+UseTLAB -XX:+UseCompressedOops -XX:+AlwaysPreTouch -XX:MaxInlineSize=64 -XX:+OptimizeStringConcat -XX:ErrorFile=log/jvm_crash_log_%p.log -Djava.awt.headless=true"
     }
